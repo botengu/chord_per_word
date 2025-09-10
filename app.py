@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import re
 from typing import Dict, Tuple, Optional
 
-st.set_page_config(page_title="Chord Annotator (No Nashville)", page_icon="🎼")
+st.set_page_config(page_title="Chord Annotator", page_icon="🎼")
 
 st.title("🎼 Chord Annotator — No Nashville Conversion")
 st.write("Paste lyrics, enter chords per word (as-is, no conversion), then export a PNG.")
